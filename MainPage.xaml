@@ -5,9 +5,9 @@
              x:Class="NotifyIconMAUI.MainPage">
     <Grid>
         <tb:TaskbarIcon
-        IconSource="red.ico"
         x:Name="TrayIcon"
         xmlns:tb="https://notifyicon.com/"
+        IconSource="Resources/Circle.ico"
         LeftClickCommand="{Binding ShowHideWindowCommand}"
         NoLeftClickDelay="True">
             <FlyoutBase.ContextFlyout>
